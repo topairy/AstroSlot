@@ -1,0 +1,90 @@
+---
+const links = ["Home", "About", "Gallery", "Contact"];
+
+// Create object variable to store links
+
+
+const navData  = [
+{
+    href: "/",
+    Text: "Home",
+    divider: " | ",
+},
+
+{
+    href: "/about/",
+    Text: "About",
+    divider: " | ",
+},
+
+{
+    href: "/gallery/",
+    Text: "Gallery",
+    divider: " | ",
+},
+
+];
+---
+
+<!-- <nav>
+    <a href="/">Home</a> | <a href="/about/">About</a> | <a href="/gallery/">Gallery</a>
+</nav> -->
+
+
+<!-- <nav>
+    <ul>
+        {links.map( (link) => <li> {link} </li>)}
+    </ul>
+</nav> -->
+
+<nav>
+<ul>
+    {
+    navData.map((item) => (
+        <>
+        <li>
+        <a href={item.href}>{item.Text} </a> 
+        </li> 
+        <span class="divider">{item.divider}</span>
+        </>
+        
+    ))
+    }
+</ul>
+</nav>
+
+
+<style>
+
+    ul
+    {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-color: white;}
+    li
+    {
+        background-color: white;
+        padding: 0 .5rem;
+    }
+
+    span.divider
+    {
+        display: none;
+    }
+
+    @media screen and (min-width: 600px )
+    {
+        ul
+        {
+            flex-direction: row;
+        }
+        span.divider
+        {
+            display: inline;
+        }
+    }
+
+</style>

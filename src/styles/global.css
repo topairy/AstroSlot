@@ -1,0 +1,37 @@
+body{
+    background:antiquewhite;
+}
+#container{
+    width: 90%;
+    max-width: 1200px;
+    background-color: tomato;
+    margin: auto;
+    margin-top: 50px;
+}
+header{
+    min-height: 120px;
+    background: salmon;
+    padding: 1rem;
+}
+header > h1{
+    text-align: center;
+}
+main{
+    min-height: 300px;
+    background-color: white;
+    padding: 1rem;
+    line-height: 1.7;
+    color: #333;
+}
+footer{
+    min-height: 120px;
+    background: tan;
+    padding: 1rem;
+}
+nav{
+    background-color: blanchedalmond;
+    padding: 1rem;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
