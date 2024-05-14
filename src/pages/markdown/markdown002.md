@@ -1,7 +1,8 @@
 ---
 title: "Markdown Demo Part 2"
 date: 2024-05-15
-layout: "../../layouts/MarkdownLayout.astro"
+author: "Izac Carmona"
+description: "Markdown with layout path"
 ---
 
 # Markdown Demo Part 2
