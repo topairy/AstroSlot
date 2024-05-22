@@ -3,6 +3,7 @@ title: "Markdown Demo Part 4"
 date: 2024-05-22
 author: "Izac Carmona"
 description: "Markdown Multiple files "
+layout: "../../layouts/BaseLayout.astro"
 ---
 
 # Markdown Demo Part 3

@@ -3,6 +3,8 @@ title: "Markdown Demo Part 3"
 date: 2024-05-22
 author: "Izac Carmona"
 description: "Markdown Single file"
+layout: "../../layouts/BaseLayout.astro"
+
 ---
 
 # Markdown Demo Part 3
